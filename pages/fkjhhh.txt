@@ -1,0 +1,28 @@
+ltcug_testdb
+
+ISdU.{2mtQa(
+
+ltcug_testuser
+
+https://github.com/mugerwa29/Mobileshop-Inventory.git
+
+
+https://github.com/mugerwa29/Mobileshop-Inventory.git
+
+
+Trade-Ins Table 
+trade_in_id (PK) - Unique identifier for each trade-in transaction
+customer_id (FK) - References Customers.customer_id
+phone_id (FK) - References Phones.phone_id (for the phone being traded in)
+trade_in_value - Value of the phone at trade-in time (e.g., 700,000 for iPhone 11)                           
+cash_received - Amount of cash actually received (e.g., 800,000)
+trade_in_date - Date the trade-in was processed    
+
+
+
+Sales Table
+sale_id (PK) - Unique identifier for each sale
+trade_in_id (FK)
+customer_id (FK) - References Customers.customer_id
+phone_id (FK) - References Phones.phone_id (for the new phone being purchased)
+sale_price - Total value of the new phone sold (e.g., 1,500,000 for iPhone 14)
