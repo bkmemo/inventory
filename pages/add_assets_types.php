@@ -42,7 +42,7 @@
              </div>					
                 <div class="col-lg-12"><div class="col-md-3"></div>
 				<div class="col-md-6">
-					<h4>Add Balance Sheet Type</h4>
+					<h4>Add Balance Sheet Type Orignal</h4>
 					<form id="main-contact-form" method="post" action="?action=saveitem" role="form">
 						Balance Sheet Type:
 						<div class="form-group">
